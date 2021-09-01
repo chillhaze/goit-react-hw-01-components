@@ -1,0 +1,33 @@
+.item {
+  padding: 10px 50px 10px 10px;
+  min-width: 230px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 3px 10px -4px #050505;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: teal;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0, 128, 128, 0.602);
+  border-radius: 5px;
+}
+
+.name {
+  min-width: 48px;
+}
