@@ -1,11 +1,11 @@
 .transactionHistory {
-  width: 500px;
+  min-width: 320px;
+
+  width: 90%;
   margin: 30px auto;
 
   background-color: #fff;
   box-shadow: 1px 3px 10px -4px #050505;
-
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 
@@ -15,6 +15,11 @@
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.tableHead th {
+  min-width: 100px;
+  width: 33%;
 }
 
 .tableHead th:not(:last-child) {

@@ -30,4 +30,6 @@
 
 .name {
   min-width: 48px;
+  color: #5f636b;
+  font-weight: 600;
 }
