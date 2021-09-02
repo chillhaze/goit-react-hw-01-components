@@ -10,7 +10,7 @@
 }
 
 .tableHead {
-  height: 40px;
+  /* height: 40px; */
   background-color: rgb(30, 170, 212);
   color: #fff;
   font-weight: 600;
@@ -19,6 +19,7 @@
 
 .tableHead th {
   min-width: 100px;
+  padding: 10px 0;
   width: 33%;
 }
 
@@ -27,9 +28,13 @@
 }
 
 .tableBody {
-  height: 40px;
-  line-height: 1.5;
+  /* height: 40px; */
+  /* line-height: 1.5; */
   color: rgb(141, 148, 155);
+}
+
+.tableBody td {
+  padding: 10px 0;
 }
 
 .tableBody td:not(:last-child) {
